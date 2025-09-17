@@ -1,0 +1,117 @@
+# print your name
+print("hello world")
+
+#i/p from the user & print 
+name=input("enter your name")
+print("your name:",name)
+
+
+# get i/p from user & print 2no's
+num1=int(input("enter "))
+num2=int(input("enter "))
+print(num1)
+print(num2)
+
+
+# create a your name with frist and last name 
+a=input("enter the frist name:")
+b=input("enter the last name:")
+c=a+b
+print("your full name:",c)
+
+
+# swap 2no's without 3rd varaiable
+a=int(input("enter the num"))
+b=int(input("enter the num"))
+a=a+b
+b=a-b
+a=a-b
+print("a:",a)
+print("b:",b)
+
+
+#swap 2no's using 3rd varabile
+a=int(input("enter the num"))
+b=int(input("enter the num"))
+temp=a
+a=b
+b=temp
+print("after swapping:",a)
+print("after swapping:",b)
+
+
+
+# print different datatypes int/ flaot/boolean
+a=10
+b=4.1
+c="ture"
+print("interger is:",a)
+print("float is:",b)
+print("boolean is:",c)
+      
+
+# sq of 2 number
+a=int(input("enter the value"))
+b=a**2
+print(b)
+
+
+# primitive code
+print(10,type(10))
+print(12.365,type(12.365))
+print(True,type(True))
+
+
+# avg of 3 no's
+a=int(input("enter the value"))
+b=int (input("enter the value"))
+c=int(input("enter the value"))
+x=a+b+c/3
+print("the AVG is:",x)
+
+
+
+# convert min to sec
+min=int(input("enter the value:"))
+sec=min*60
+print("result:",sec)
+
+
+# multiply floating points
+float_num1=2.36
+float_num2=4.78
+multiply=float_num1*float_num2
+print("result:",multiply)
+
+
+#largest of 3no's
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+c=int(input("enter the number:"))
+largest=max(a,b,c)
+print("result:",largest)
+
+
+#check the age if you child,teenage,adult
+age=int(input("enter the your age:"))
+if(age<13):
+    print("child")
+if(age<18):
+    print("teenager")
+else:
+    print("adult")
+
+
+
+    #check the grades using marks
+    marks=int(input("enter the marks"))
+if(marks>90):
+    print("Grade A")
+elif(marks>70 & marks<80):
+    print("Grade B")
+elif(marks>50 & marks<70):
+    print("Grade C")          
+elif(marks>50 & marks<40):
+    print("Grade D")    
+else:
+    print("faiL")
