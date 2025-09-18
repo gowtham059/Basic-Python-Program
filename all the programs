@@ -115,3 +115,133 @@ elif(marks>50 & marks<40):
     print("Grade D")    
 else:
     print("faiL")
+
+
+
+# to see the civil score
+p = int(input("enter 1 or 0 for pan_card"))
+ac = int(input("enter 1 or 0 for addhar_card"))
+cs = int(input("enter civil_score"))
+if (p==1 and ac == 1 and cs > 700):
+    print("loan can be approved .")
+else:
+    print("loan declined.")
+
+
+
+# Number is divisible or not 
+n = int(input("enter a number : "))
+if(n%5 == 0 and n%11 == 0):
+    print("number is divisible by 5 and 11")
+else:
+    print("number is not divisible by 5 and 11")
+
+
+
+
+# check the atm card and withdrawn and correct
+a = int(input("enter 1 or 0 for atm_card"))
+p = int(input("enter 1 or 0 for correct_pin"))
+al = int(input("enter 1 or 0 for not_locked"))
+if (a==1 and p == 1 and al == 0):
+    print("money withdrawn.")
+else:
+    print("error.")
+
+
+
+# check the marks of exam pass or fail
+t = int(input("enter the theory marks : "))
+p = int(input("enter the parctical marks : "))
+tl = t+p
+if ((t>35 and p>15) or (tl > 60)):
+    print("pass")
+else:
+    print("fail")
+
+
+
+
+# to see the day using the date
+n = int(input("enter a number : "))
+if (n==1):
+    print("monday")
+elif (n == 2):
+    print("tuesday")
+elif (n == 3):
+    print("wednesday")
+elif (n == 4):
+    print("thursday")
+elif (n == 5):
+    print("friday")
+elif (n == 6):
+    print("saturday")
+else:
+    print("sunday")
+
+
+
+
+# login to sites 
+user = "gowtham"
+pwd = 1234
+username = input("enter the user name : ")
+password = int(input("enter the password : "))
+if (username == user and password == pwd):
+    print("login successful")
+else:
+    print("login failed")
+
+
+
+# to find the body temperatur is fever or cold
+temp = int(input("enter the temperature : "))
+if(temp == 37):
+    print("normal")
+elif(temp > 37):
+    print("you have fever")
+else:
+    print("you have cold")
+
+
+
+# arthemic operators
+a = 10
+b = 20
+o = input("enter operator symbol : ")
+if (o == "+"):
+    print("add",a+b)
+elif(o == "-"):
+    print("sub",a-b)
+elif(o == "*"):
+    print("mul",a*b)
+elif(o == "%"):
+    print("div",a%b)
+
+
+
+
+# if num is odd or not
+n = int(input("enter a number : "))
+if((n%2) == 0):
+    print("even")
+else:
+    print("odd")
+
+
+
+
+
+# if num is + or - or zero
+a = int(input("enter a number : "))
+if(a>0):
+    print("positive")
+elif(a<0):
+    print("negative")
+else:
+    print("zero")
+
+
+
+
+#
