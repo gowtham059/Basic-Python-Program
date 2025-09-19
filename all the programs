@@ -244,4 +244,58 @@ else:
 
 
 
-#
+#to check even or odd
+n=int(input("enter a number:"))
+if((n%2)==0):
+    print("even")
+else:
+    print("odd")
+
+
+
+
+#sum of quise m and n
+m=int(input("enter a number m:"))
+n=int(input("enter a number n:"))
+s=0
+if(m>n):
+    print("0")
+elif(m<=n):
+    for i in range(m,n+1):
+        s=s+(i**3)
+        print(s)
+
+
+
+
+
+
+#to deveped the characters
+a=10
+b=5.5
+c="see"
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+
+#to check the operation
+li=[1,2,3,]
+tu=(1,2,3,4)
+dic={"a":1,"b":2}
+sett={1,2,3,1}
+print(type(li))
+print(type(tu))
+print(type(dic))
+print(type(sett))
+
+
+
+
+
+#to check the even or odd
+n=int(input("enter a number:"))
+c=(n*(n+1))
+print("even ans :",c)
+print("odd ans:",n**2)
